@@ -1,4 +1,4 @@
-# [Captain Holt soundboard](https://holt-sounboard.github.io)
+# [Captain Holt soundboard](https://holt-soundboard.github.io)
 
 Currently have:
 - 68 sounds of Captain Raymon Holt
