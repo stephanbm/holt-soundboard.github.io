@@ -1,6 +1,14 @@
-# [Captain Holt soundboard](holt-sounboard.github.io)
+# [Captain Holt soundboard](https://holt-sounboard.github.io)
 
-For the bset experience, use chrome on the android.
+Currently have:
+- 68 sounds of Captain Raymon Holt
+- 7 sounds for Charles Boyle
+- 8 sounds for Jake Peralta
+- 3 sounds for Terry Jeffords
+
+and ounting!
+
+*For the bset experience, use chrome on the android.*
 
 
 
