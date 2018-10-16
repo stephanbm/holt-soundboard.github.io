@@ -3,7 +3,7 @@ import glob
 from pathlib import Path
 from pprint import pprint
 
-PATH = "/Users/pk/Desktop/Holt_soundboard 4/sounds"
+PATH = "/Users/parthkabra/Desktop/Web/Holt_soundboard 4/sounds"
 
 dic = {}
 
@@ -20,7 +20,7 @@ for i in p.glob('**/*.*'):
             dic[character] = [filename]
 
 
-# pprint(dic)
+pprint(dic)
 
 for key, lst in dic.items():
     dic[key].sort()

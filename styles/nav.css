@@ -52,4 +52,8 @@ nav > div > div {
         font-size: 20px;
     }
 
+    #character_row {
+        display: none;
+    }
+
 }   

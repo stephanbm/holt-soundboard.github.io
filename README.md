@@ -1,6 +1,4 @@
-# Captain Holt soundboard
-
-*Please navigate to (holt-sounboard.github.io)[holt-sounboard.github.io] to use the Holt Soundboard.*
+# [Captain Holt soundboard](holt-sounboard.github.io)
 
 For the bset experience, use chrome on the android.
 
