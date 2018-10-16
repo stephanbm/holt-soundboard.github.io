@@ -8,7 +8,7 @@ Currently have:
 
 and ounting!
 
-*For the bset experience, use chrome on the android.*
+*For the best experience, use chrome on the android.*
 
 
 
