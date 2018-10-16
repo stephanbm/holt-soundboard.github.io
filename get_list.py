@@ -12,7 +12,7 @@ for i in p.glob('**/*.*'):
     sound_path = str(i).split("sounds/")[1]
     if not sound_path[0] == ".":
         print(sound_path)
-        character, filename = sound_path.split("/")[0], sound_path.split("/")[1].capitalize()
+        character, filename = sound_path.split("/")[0], sound_path.split("/")[1]
 
         try:
             dic[character].append(filename)
