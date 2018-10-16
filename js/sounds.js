@@ -36,9 +36,9 @@ function playSound(sound) {
     // statusMeta.content = nav.style.background = "#"+((1<<24)*Math.random()|0).toString(16);
 
     // using raw github user content to reduce errors
-    // player.src = "sounds/" + sound;
+    player.src = "sounds/" + sound;
 
-    player.src = "https://raw.githubusercontent.com/holt-soundboard/holt-soundboard.github.io/master/sounds/" + sound;
+    // player.src = "https://raw.githubusercontent.com/holt-soundboard/holt-soundboard.github.io/master/sounds/" + sound;
     console.log(player.src);
     let aud = player.cloneNode().play();
     // if(navigator.vibrate) {navigator.vibrate([100])}
