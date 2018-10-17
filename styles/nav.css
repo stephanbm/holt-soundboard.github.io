@@ -24,6 +24,10 @@ nav > div > div {
     justify-self: end;
     font-weight: 400
 }
+    /* each icon */
+    .row-1 .right > i {
+        padding-left: 10px;
+    }
 
 
 /* row-2 */
@@ -46,9 +50,16 @@ nav > div > div {
         text-decoration: underline;
     }
 
-
+@media only screen and (max-width: 800px) {
+    .row-1 {
+        grid-template-columns: 8fr 2fr;
+    }
+} 
 @media only screen and (max-width: 500px) {
-    nav > div {
+    .row-1 {
+        grid-template-columns: 8fr 2fr;
+    }
+    .row-1 .logo, .row-1 .right {
         font-size: 20px;
     }
 

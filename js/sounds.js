@@ -44,3 +44,18 @@ function playSound(sound) {
     // if(navigator.vibrate) {navigator.vibrate([100])}
 }
 
+
+
+let randomButton = document.getElementById("random_button")
+randomButton.onclick = function() {
+    let all_sounds = [];
+    for (let char in data) {
+        let sounds = data[char];
+        for (s in sounds) {
+            let audio = sounds[s];
+            all_sounds.push(`${char}/${audio}`);
+        }
+    }
+    let rand = all_sounds[Math.floor(Math.random() * all_sounds.length)];
+    playSound(rand);
+}
