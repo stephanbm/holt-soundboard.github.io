@@ -26,7 +26,7 @@ nav > div > div {
 }
     /* each icon */
     .row-1 .right > i {
-        padding-left: 10px;
+        padding-left: 15px;
     }
 
 
@@ -60,7 +60,7 @@ nav > div > div {
         grid-template-columns: 7fr 3fr;
     }
     .row-1 .logo, .row-1 .right {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     #character_row {
