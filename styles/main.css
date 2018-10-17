@@ -46,7 +46,7 @@ h1 {
         grid-template-columns: repeat(2, 1fr)
     }
     .grid > div {
-        font-size: 19px;
-        padding: 14px;
+        font-size: 18px;
+        padding: 13px;
     }
 }   
