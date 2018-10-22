@@ -1,5 +1,13 @@
 let main = document.getElementsByTagName("main")[0];
 let player = document.getElementById("player");
+let all_sounds = [];
+for (let char in data) {
+    let sounds = data[char];
+    for (s in sounds) {
+        let audio = sounds[s];
+        all_sounds.push(`${char}/${audio}`);
+    }
+}
 
 
 for (let char in data) {
@@ -39,7 +47,7 @@ function playSound(sound) {
     player.src = "sounds/" + sound;
 
     // player.src = "https://raw.githubusercontent.com/holt-soundboard/holt-soundboard.github.io/master/sounds/" + sound;
-    console.log(player.src);
+    // console.log(player.src);
     let aud = player.cloneNode().play();
     // if(navigator.vibrate) {navigator.vibrate([100])}
 }
@@ -48,14 +56,6 @@ function playSound(sound) {
 
 let randomButton = document.getElementById("random_button")
 randomButton.onclick = function() {
-    let all_sounds = [];
-    for (let char in data) {
-        let sounds = data[char];
-        for (s in sounds) {
-            let audio = sounds[s];
-            all_sounds.push(`${char}/${audio}`);
-        }
-    }
     let rand = all_sounds[Math.floor(Math.random() * all_sounds.length)];
     playSound(rand);
 }
