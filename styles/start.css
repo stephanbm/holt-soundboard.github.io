@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     font-weight: 400;
+    letter-spacing: 0.9px;
 
     -webkit-overflow-scrolling: touch;
 
