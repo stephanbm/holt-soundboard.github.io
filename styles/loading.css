@@ -25,7 +25,7 @@
 
 }
 
-#loading #message {
+#loading #text {
     background-color: black;
     position: absolute;
     top: 85%;
@@ -42,16 +42,16 @@
     border-radius: 15px;
 }
 
-#message div {
+#text div {
     font-size: 25px;
     color: darkgray;
 }
 
 @media only screen and (max-width: 900px) {
-    #loading #message {
+    #loading #text {
         min-width: 90%
     }
-    #loading #message {
+    #loading #text {
         font-size: 30px;
     }
 }   
