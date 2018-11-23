@@ -1,9 +1,4 @@
-self.addEventListener('install', function(event) {
-  // Perform install steps
-});
-
-
-var cacheName = 'holt-soundboard-0.2';
+var CACHE_NAME = 'holt-soundboard-0.1.1';
 var urlsToCache = [
   "/",
   "/index.html",
@@ -21,6 +16,8 @@ var urlsToCache = [
   "styles/menu.css",
   "styles/nav.css",
   "styles/start.css",
+
+  "https://use.fontawesome.com/releases/v5.4.1/css/all.css",
 
   "/sounds/Captain Holt/Bold personality.m4a",
   "/sounds/Captain Holt/Let's get that punk!.m4a",
@@ -100,9 +97,9 @@ var urlsToCache = [
 self.addEventListener('install', function(event) {
   // Perform install steps
   event.waitUntil(
-    caches.open(cacheName)
+    caches.open(CACHE_NAME)
       .then(function(cache) {
-        console.log('Opened cache');
+        console.log('Opened cache and caching all URLs given');
         return cache.addAll(urlsToCache);
       })
   );
@@ -111,18 +108,28 @@ self.addEventListener('install', function(event) {
 // TODO: delete older service workers
 // TODO: remove older caches when a new one is there
 
-//
+// intercepting page requests
 self.addEventListener('fetch', function(event) {
-  event.respondWith(
-    caches.match(event.request)
-      .then(function(response) {
-        // Cache hit - return response
-        if (response) {
-          return response;
-        }
-        return fetch(event.request);
-      }
-    )
-  );
-});
+  // console.log('intercepting: ', event.request.url);
 
+  event.respondWith(
+    caches.match(event.request).then(function(response) {
+      return response || fetch(event.request);
+    })
+  )
+})
+
+
+self.addEventListener('activate', function(event) {
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(cacheNames.map(function(thisCacheName) {
+        console.log("this cache name: ",thisCacheName);
+        if (thisCacheName !== CACHE_NAME) {
+          console.log('older cache present, must delete: ', thisCacheName);
+          return caches.delete(thisCacheName);
+        }
+      }))
+    })
+  )
+})

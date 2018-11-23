@@ -21,7 +21,6 @@ h1 {
     grid-template-columns: 1fr 20px;
 
     justify-items: center;
-    transition: 1s all;
 }
 
 
