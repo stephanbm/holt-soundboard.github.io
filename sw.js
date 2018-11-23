@@ -179,8 +179,7 @@ self.addEventListener('install', function(event) {
 
 // intercepting page requests
 self.addEventListener('fetch', function(event) {
-  // console.log('intercepting: ', event.request.url);
-
+  console.log('intercepting: ', event.request.url);
   event.respondWith(
     caches.match(event.request).then(function(response) {
       return response || fetch(event.request);
