@@ -51,8 +51,8 @@ function playSound(sound) {
 
     // player.src = "https://raw.githubusercontent.com/holt-soundboard/holt-soundboard.github.io/master/sounds/" + sound;
     // console.log(player.src);
-    // let aud = player.cloneNode().play();
-    player.play();
+    let aud = player.cloneNode().play();
+    // player.play();
     // if(navigator.vibrate) {navigator.vibrate([100])}
 }
 
