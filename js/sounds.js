@@ -26,6 +26,7 @@ for (let char in data) {
         let colorClass = colors[audio[0].toLowerCase()];
 
         let path = `${char}/${audio}`;
+        // does safari require full path?
         document.getElementById(`${char}_grid`).innerHTML += `
             <div onclick="playSound(\`${path}\`)" class="${colorClass}">
                 ${name}
@@ -44,7 +45,7 @@ function playSound(sound) {
     // statusMeta.content = nav.style.background = "#"+((1<<24)*Math.random()|0).toString(16);
 
     // using raw github user content to reduce errors
-    player.src = "sounds/" + sound;
+    player.src = "https://holt-soundboard.github.io/" + "sounds/" + sound;
 
     // player.src = "https://raw.githubusercontent.com/holt-soundboard/holt-soundboard.github.io/master/sounds/" + sound;
     // console.log(player.src);
