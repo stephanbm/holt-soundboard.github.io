@@ -3,7 +3,7 @@ self.addEventListener('install', function(event) {
 });
 
 
-var cacheName = 'holt-soundboard-0.1';
+var cacheName = 'holt-soundboard-0.2';
 var urlsToCache = [
   "/",
   "/index.html",
