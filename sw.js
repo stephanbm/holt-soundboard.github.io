@@ -1,4 +1,4 @@
-var CACHE_NAME = 'holt-soundboard-0.1.3';
+var CACHE_NAME = 'holt-soundboard-0.1.4';
 var urlsToCache = [
   "/",
   "/index.html",
@@ -17,7 +17,7 @@ var urlsToCache = [
   "styles/nav.css",
   "styles/start.css",
 
-  "https://use.fontawesome.com/releases/v5.4.1/css/all.css",
+  "/styles/fa/css/all.min.css",
 
   "/sounds/Captain Holt/Bold personality.m4a",
   "/sounds/Captain Holt/Case.m4a",
