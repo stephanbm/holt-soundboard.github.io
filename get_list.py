@@ -21,11 +21,11 @@ for i in p.glob('**/*.mp3'):
             dic[character] = [filename]
 
 
-pprint(dic)
+# pprint(dic)
 
 for key, lst in dic.items():
     dic[key].sort()
-    pprint(dic[key])
+    # pprint(dic[key])
 
 f = open("js/data.js", "w")
 f.write("let data = " + str(dic))
