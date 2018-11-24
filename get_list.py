@@ -8,7 +8,8 @@ PATH = "/Users/parthkabra/Desktop/Web/Holt_soundboard 4/sounds"
 dic = {}
 
 p = Path(PATH)
-for i in p.glob('**/*.m4a'):
+# for i in p.glob('**/*.m4a'):
+for i in p.glob('**/*.*'):
     sound_path = str(i).split("sounds/")[1]
     if not sound_path[0] == ".":
         print('"/sounds/{}",'.format(sound_path))
