@@ -1,4 +1,4 @@
-var CACHE_NAME = 'holt-soundboard-0.2.8';
+var CACHE_NAME = 'holt-soundboard-0.2.9';
 var urlsToCache = [
   "/",
   "/index.html",
@@ -26,6 +26,7 @@ var urlsToCache = [
   "/sounds/Captain Holt/Dirtbag.mp3",
   "/sounds/Captain Holt/The full bullpen.mp3",
   "/sounds/Captain Holt/I'm diffusing a situation.mp3",
+  "/sounds/Captain Holt/No one will ever believe you.mp3",
   "/sounds/Captain Holt/HOT DAMN .mp3",
   "/sounds/Captain Holt/This is.mp3",
   "/sounds/Captain Holt/Time for the next level.mp3",
@@ -33,7 +34,6 @@ var urlsToCache = [
   "/sounds/Captain Holt/Stop playing this inane garbage.mp3",
   "/sounds/Captain Holt/Bone.mp3",
   "/sounds/Captain Holt/Let's unleash hell.mp3",
-  "/sounds/Captain Holt/Because no one will ever believe you.mp3",
   "/sounds/Captain Holt/Peralta you're a genius.mp3",
   "/sounds/Captain Holt/I've never been happier.mp3",
   "/sounds/Captain Holt/Huh.mp3",
@@ -69,7 +69,7 @@ var urlsToCache = [
   "/sounds/Captain Holt/Is everything okay (brain).mp3",
   "/sounds/Captain Holt/Oppsie Doodle.mp3",
   "/sounds/Captain Holt/Boost my bottom.mp3",
-  "/sounds/Captain Holt/Cwazy Cupcakes.mp3",
+  "/sounds/Captain Holt/Cwazy cupcakes.mp3",
   "/sounds/Captain Holt/Painnnn.mp3",
   "/sounds/Captain Holt/Bingpot.mp3",
   "/sounds/Captain Holt/Here at the fun zone.mp3",
