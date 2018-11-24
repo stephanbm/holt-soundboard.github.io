@@ -28,7 +28,7 @@ for (let char in data) {
         let path = `${char}/${audio}`;
         // does safari require full path?
         document.getElementById(`${char}_grid`).innerHTML += `
-            <div onclick="playSound(\`${path}\`)" class="${colorClass}">
+            <div ontouchstart="playSound(\`${path}\`)" onclick="playSound(\`${path}\`)" class="${colorClass}">
                 ${name}
             </div>
         `;
