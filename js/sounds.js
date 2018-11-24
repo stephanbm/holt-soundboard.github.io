@@ -46,10 +46,11 @@ function playSound(sound) {
 
     // using raw github user content to reduce errors
     // "https://holt-soundboard.github.io/" +
-    player.src = "https://holt-soundboard.github.io/" + "sounds/" + sound;
+    // player.src = "https://holt-soundboard.github.io/" + "sounds/" + sound;
+    player.src = "https://raw.githubusercontent.com/holt-soundboard/holt-soundboard.github.io/master/sounds/" + sound;
+
     console.log(player.src);
 
-    // player.src = "https://raw.githubusercontent.com/holt-soundboard/holt-soundboard.github.io/master/sounds/" + sound;
     // console.log(player.src);
     let aud = player.cloneNode().play();
     // player.play();
