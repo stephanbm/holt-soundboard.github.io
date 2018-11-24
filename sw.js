@@ -1,4 +1,4 @@
-var CACHE_NAME = 'holt-soundboard-0.1.11';
+var CACHE_NAME = 'holt-soundboard-0.1.12';
 var urlsToCache = [
   "/",
   "/index.html",
@@ -165,14 +165,26 @@ var urlsToCache = [
 
 self.addEventListener('install', function(event) {
   // Perform install steps
+  install(event, CACHE_NAME, urlsToCache);
+  // event.waitUntil(
+  //   caches.open(CACHE_NAME)
+  //     .then(function(cache) {
+  //       console.log('Opened cache and caching all URLs given');
+  //       return cache.addAll(urlsToCache);
+  //     })
+  // );
+});
+
+function install(event, cacheName, urls) {
   event.waitUntil(
-    caches.open(CACHE_NAME)
+    caches.open(cacheName)
       .then(function(cache) {
         console.log('Opened cache and caching all URLs given');
-        return cache.addAll(urlsToCache);
+        return cache.addAll(urls);
       })
   );
-});
+}
+
 
 // TODO: delete older service workers
 // TODO: remove older caches when a new one is there
