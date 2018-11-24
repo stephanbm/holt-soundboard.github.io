@@ -69,7 +69,7 @@ var urlsToCache = [
 "/sounds/Captain Holt/Is everything okay (brain).mp3",
 "/sounds/Captain Holt/Oppsie Doodle.mp3",
 "/sounds/Captain Holt/Boost my bottom.mp3",
-"/sounds/Captain Holt/Cwazy cupcakes.mp3",
+"/sounds/Captain Holt/Kwazy cupcakes.mp3",
 "/sounds/Captain Holt/Painnnn.mp3",
 "/sounds/Captain Holt/Bingpot.mp3",
 "/sounds/Captain Holt/Here at the fun zone.mp3",
