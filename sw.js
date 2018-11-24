@@ -1,4 +1,4 @@
-var CACHE_NAME = 'holt-soundboard-0.2.5';
+var CACHE_NAME = 'holt-soundboard-0.2.6';
 var urlsToCache = [
   "/",
   "/index.html",
