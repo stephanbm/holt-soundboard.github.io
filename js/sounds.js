@@ -22,7 +22,7 @@ for (let char in data) {
     let sounds = data[char];
     for (s in sounds) {
         let audio = sounds[s];
-        let name = audio.split(".m4a")[0];
+        let name = audio.split(".mp3")[0];
         let colorClass = colors[audio[0].toLowerCase()];
 
         let path = `${char}/${audio}`;
