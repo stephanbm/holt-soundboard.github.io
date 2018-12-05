@@ -1,4 +1,4 @@
-var CACHE_NAME = 'holt-soundboard-0.2.12';
+var CACHE_NAME = 'holt-soundboard-0.2.13';
 var urlsToCache = [
   "/",
   "/index.html",
@@ -16,8 +16,6 @@ var urlsToCache = [
   "styles/menu.css",
   "styles/nav.css",
   "styles/start.css",
-
-  "/styles/fa/css/all.min.css",
 
   "/sounds/Captain Holt/Talking raisin.mp3",
   "/sounds/Captain Holt/Right now.mp3",
@@ -101,14 +99,24 @@ var urlsToCache = [
   "/sounds/Captain Holt/Time to make daddy proud.mp3",
   "/sounds/Captain Holt/I'm.mp3",
   "/sounds/Captain Holt/What are you doing at Razzmataz.mp3",
+  "/sounds/Terry Jeffords/Work environment.mp3",
   "/sounds/Terry Jeffords/The worst thing in the world.mp3",
+  "/sounds/Terry Jeffords/Terry loves walls.mp3",
+  "/sounds/Terry Jeffords/I love yoghurt.mp3",
   "/sounds/Terry Jeffords/Whyyy.mp3",
+  "/sounds/Terry Jeffords/This is taking too long.mp3",
+  "/sounds/Terry Jeffords/Yoghurt fridge.mp3",
   "/sounds/Terry Jeffords/How dare you.mp3",
+  "/sounds/Terry Jeffords/IMPORTANT.mp3",
   "/sounds/Terry Jeffords/Grind these kittens.mp3",
   "/sounds/Terry Jeffords/Three-perp perp cell.mp3",
   "/sounds/Terry Jeffords/I am loving it.mp3",
+  "/sounds/Terry Jeffords/Terry loves responsible agriculutral practises.mp3",
   "/sounds/Terry Jeffords/Terry regrets.mp3",
   "/sounds/Terry Jeffords/Shut up stupid.mp3",
+  "/sounds/Terry Jeffords/Release your sweets.mp3",
+  "/sounds/Terry Jeffords/Woooh.mp3",
+  "/sounds/Terry Jeffords/I love being scary Terry.mp3",
   "/sounds/Terry Jeffords/Terry loves lavender.mp3",
   "/sounds/Charles Boyle/Really.mp3",
   "/sounds/Charles Boyle/Protect our breasts.mp3",
@@ -168,7 +176,7 @@ var urlsToCache = [
   "/sounds/Jake Peralta/Cool cool cool cool no doubt.mp3",
   "/sounds/Jake Peralta/No.mp3",
   "/sounds/Jake Peralta/It will be good and professional.mp3",
-  "/sounds/Jake Peralta/Boobies bounce.mp3",
+  "/sounds/Jake Peralta/Boobies bounce.mp3"
 ];
 
 self.addEventListener('install', function(event) {

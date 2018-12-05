@@ -4,7 +4,7 @@ window.addEventListener("load", function() {
 })
 
 let message = document.getElementById("message");
-
+message.style.display = "none";
 // if it has been hidden before, hide foreever
 if (localStorage.messageHidden2) {
     message.style.display = "none";
