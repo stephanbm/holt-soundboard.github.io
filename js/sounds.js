@@ -41,6 +41,10 @@ for (let char in data) {
 //was going to chang color on every sound click, but decided agains it
 
 function playSound(sound) {
+    // analytic tracking
+    ga('send', 'event', 'audio', 'play', sound)
+    console.log('event to sound ', sound);
+    
     // console.log(sound);
     // console.log(statusMeta.content);
     // statusMeta.content = nav.style.background = "#"+((1<<24)*Math.random()|0).toString(16);
@@ -50,12 +54,14 @@ function playSound(sound) {
     player.src = "https://holt-soundboard.github.io/" + "sounds/" + sound;
     // player.src = "https://raw.githubusercontent.com/holt-soundboard/holt-soundboard.github.io/master/sounds/" + sound;
 
-    console.log(player.src);
+    // console.log(player.src);
 
     // console.log(player.src);
     let aud = player.cloneNode().play();
     // player.play();
     // if(navigator.vibrate) {navigator.vibrate([100])}
+
+
 }
 
 
