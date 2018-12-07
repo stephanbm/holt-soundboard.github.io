@@ -42,7 +42,11 @@ for (let char in data) {
 
 function playSound(sound) {
     // analytic tracking
-    ga('send', 'event', 'audio', 'play', sound)
+    // ga('send', 'event', 'audio', 'play', sound)
+    gtag('event', 'play', {
+        'event_category': 'audio',
+        'event_label': sound.split(".mp3")[0]
+    });
     console.log('event to sound ', sound);
     
     // console.log(sound);
