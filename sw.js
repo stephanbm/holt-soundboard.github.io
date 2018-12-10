@@ -1,4 +1,4 @@
-var CACHE_NAME = 'holt-soundboard-0.2.16';
+var CACHE_NAME = 'holt-soundboard-0.2.17';
 var urlsToCache = [
   "/",
   "/index.html",
@@ -99,6 +99,7 @@ var urlsToCache = [
   "/sounds/Captain Holt/Bold personality.mp3",
   "/sounds/Captain Holt/Let's get that punk!.mp3",
   "/sounds/Captain Holt/Time to make daddy proud.mp3",
+  "/sounds/Captain Holt/Don't ever bup-bup-bup me again.mp3",
   "/sounds/Captain Holt/I'm.mp3",
   "/sounds/Captain Holt/No.mp3",
   "/sounds/Captain Holt/What are you doing at Razzmataz.mp3",
@@ -199,6 +200,7 @@ var urlsToCache = [
   "/sounds/Jake Peralta/Guilty cool.mp3",
   "/sounds/Jake Peralta/Sex tape (why doesn't your mouth work).mp3",
   "/sounds/Jake Peralta/Literal chills.mp3",
+  "/sounds/Jake Peralta/Bub-bup-bup-bup-bah.mp3",
   "/sounds/Jake Peralta/Cool cool cool cool cool cool cool.mp3",
   "/sounds/Jake Peralta/Dat really bummed me out.mp3",
   "/sounds/Jake Peralta/Oh my god I forgot about that part.mp3",
@@ -206,7 +208,6 @@ var urlsToCache = [
   "/sounds/Jake Peralta/No.mp3",
   "/sounds/Jake Peralta/It will be good and professional.mp3",
   "/sounds/Jake Peralta/Boobies bounce.mp3",
-
 ];
 
 self.addEventListener('install', function(event) {
