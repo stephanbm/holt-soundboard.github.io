@@ -11,7 +11,7 @@ p = Path(PATH)
 # for i in p.glob('**/*.m4a'):
 for i in p.glob('**/*.mp3'):
     sound_path = str(i).split("sounds/")[1]
-    if not (sound_path[0] == "." or sound_path[0] == "extra"):
+    if not (sound_path[0] == "."):
         print('"/sounds/{}",'.format(sound_path))
         character, filename = sound_path.split("/")[0], sound_path.split("/")[1]
 
