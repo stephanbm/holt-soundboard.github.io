@@ -21,7 +21,7 @@
         "/fa-solid-900.f72d546abcc27880adf8.eot",
         "/favicon.ico",
         "/index.html",
-        "/main.4a6f8027aa61a169e4f9.js",
+        "/main.3f58b2b5f681ab7f0a4d.js",
         "/manifest.json",
         "/polyfills.c6871e56cb80756a5498.js",
         "/runtime.ec2944dd8b20ec099bf3.js",
@@ -226,7 +226,10 @@
         "/assets/sounds/Terry Jeffords/Yoghurt, me too.mp3"
       ],
       "patterns": [
-        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain%20Holt\\/Bone\\.mp3"
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain%20Holt\\/Bone\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain%20Holt\\/BRB%20time\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain%20Holt\\/Bingpot\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain%20Holt\\/Bold%20personality\\.mp3"
       ]
     }
   ],
@@ -435,8 +438,8 @@
     "/fa-solid-900.8086e197694282b26c7b.woff2": "58990abc3958c68e01a50f00bceb50fb3987fb72",
     "/fa-solid-900.f72d546abcc27880adf8.eot": "f39038a6352f3a175f08b250540fdbf920c36aa7",
     "/favicon.ico": "5ad56d52a905a04db4117bcf38d24b61960b85b9",
-    "/index.html": "97dd79dcf5c559b50dd9f311b97774274c2abac2",
-    "/main.4a6f8027aa61a169e4f9.js": "dd6f2b5c81cf4ba8fce84a6f65fafe114822db04",
+    "/index.html": "1a3bd8d6c4d771d552373aa9bd81f24758c63804",
+    "/main.3f58b2b5f681ab7f0a4d.js": "b258687a258e2acb6afd8fc46be9b88b09ba892b",
     "/manifest.json": "b0657dc7d56cc1dcd9751be09ad9dea5c635a565",
     "/polyfills.c6871e56cb80756a5498.js": "f5c688c6cdf730d54759e30839fbd417dbe38e31",
     "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
