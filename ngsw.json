@@ -226,10 +226,7 @@
         "/assets/sounds/Terry Jeffords/Yoghurt, me too.mp3"
       ],
       "patterns": [
-        "https:\\/\\/github\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/tree\\/master\\/assets\\/sounds\\/Captain%20Holt\\/.*",
-        "https:\\/\\/github\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/tree\\/master\\/assets\\/sounds\\/Charles%20Boyle\\/.*",
-        "https:\\/\\/github\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/tree\\/master\\/assets\\/sounds\\/Jake%20Peralta\\/.*",
-        "https:\\/\\/github\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/tree\\/master\\/assets\\/sounds\\/Terry%20Jeffords\\/.*"
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain%20Holt\\/Bone\\.mp3"
       ]
     }
   ],
