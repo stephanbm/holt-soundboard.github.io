@@ -21,7 +21,8 @@
         "/fa-solid-900.f72d546abcc27880adf8.eot",
         "/favicon.ico",
         "/index.html",
-        "/main.8f48c36bb7e03198cb47.js",
+        "/main.4a6f8027aa61a169e4f9.js",
+        "/manifest.json",
         "/polyfills.c6871e56cb80756a5498.js",
         "/runtime.ec2944dd8b20ec099bf3.js",
         "/styles.c97aa247d5d231455d51.css"
@@ -224,7 +225,12 @@
         "/assets/sounds/Terry Jeffords/Yoghurt fridge.mp3",
         "/assets/sounds/Terry Jeffords/Yoghurt, me too.mp3"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/github\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/tree\\/master\\/assets\\/sounds\\/Captain%20Holt\\/.*",
+        "https:\\/\\/github\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/tree\\/master\\/assets\\/sounds\\/Charles%20Boyle\\/.*",
+        "https:\\/\\/github\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/tree\\/master\\/assets\\/sounds\\/Jake%20Peralta\\/.*",
+        "https:\\/\\/github\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/tree\\/master\\/assets\\/sounds\\/Terry%20Jeffords\\/.*"
+      ]
     }
   ],
   "dataGroups": [],
@@ -432,8 +438,9 @@
     "/fa-solid-900.8086e197694282b26c7b.woff2": "58990abc3958c68e01a50f00bceb50fb3987fb72",
     "/fa-solid-900.f72d546abcc27880adf8.eot": "f39038a6352f3a175f08b250540fdbf920c36aa7",
     "/favicon.ico": "5ad56d52a905a04db4117bcf38d24b61960b85b9",
-    "/index.html": "76a2314d9d570bc6a503e6586e4b6b81bdfacfe7",
-    "/main.8f48c36bb7e03198cb47.js": "790038a2bad19165f9a5a17e7c584ea04e18ca1b",
+    "/index.html": "97dd79dcf5c559b50dd9f311b97774274c2abac2",
+    "/main.4a6f8027aa61a169e4f9.js": "dd6f2b5c81cf4ba8fce84a6f65fafe114822db04",
+    "/manifest.json": "b0657dc7d56cc1dcd9751be09ad9dea5c635a565",
     "/polyfills.c6871e56cb80756a5498.js": "f5c688c6cdf730d54759e30839fbd417dbe38e31",
     "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/styles.c97aa247d5d231455d51.css": "7fcb312714388463d5a3770f1d49b7f2c7a78707"
