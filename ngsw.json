@@ -22,18 +22,6 @@
         "/favicon.ico",
         "/index.html",
         "/main.7868fe4f0f3b0f09bcbb.js",
-        "/manifest.json",
-        "/polyfills.c6871e56cb80756a5498.js",
-        "/runtime.ec2944dd8b20ec099bf3.js",
-        "/styles.c97aa247d5d231455d51.css"
-      ],
-      "patterns": []
-    },
-    {
-      "name": "assets",
-      "installMode": "prefetch",
-      "updateMode": "prefetch",
-      "urls": [
         "/assets/sounds/Captain Holt/BRB time.mp3",
         "/assets/sounds/Captain Holt/Bingpot.mp3",
         "/assets/sounds/Captain Holt/Bold personality.mp3",
@@ -223,7 +211,19 @@
         "/assets/sounds/Terry Jeffords/Woooh.mp3",
         "/assets/sounds/Terry Jeffords/Work environment.mp3",
         "/assets/sounds/Terry Jeffords/Yoghurt fridge.mp3",
-        "/assets/sounds/Terry Jeffords/Yoghurt, me too.mp3"
+        "/assets/sounds/Terry Jeffords/Yoghurt, me too.mp3",
+        "/manifest.json",
+        "/polyfills.c6871e56cb80756a5498.js",
+        "/runtime.ec2944dd8b20ec099bf3.js",
+        "/styles.c97aa247d5d231455d51.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
       ],
       "patterns": []
     }
