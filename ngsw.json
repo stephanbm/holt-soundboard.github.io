@@ -31,7 +31,7 @@
     },
     {
       "name": "assets",
-      "installMode": "prefetch",
+      "installMode": "lazy",
       "updateMode": "lazy",
       "urls": [
         "/assets/sounds/Captain Holt/BRB time.mp3",
@@ -433,7 +433,7 @@
     "/fa-solid-900.8086e197694282b26c7b.woff2": "58990abc3958c68e01a50f00bceb50fb3987fb72",
     "/fa-solid-900.f72d546abcc27880adf8.eot": "f39038a6352f3a175f08b250540fdbf920c36aa7",
     "/favicon.ico": "5ad56d52a905a04db4117bcf38d24b61960b85b9",
-    "/index.html": "0d158e3a18fd8adfc5f1c436834796df5e68a39e",
+    "/index.html": "78587e0063ae0440170f9e9dd15301d9949bc6ba",
     "/main.02ec2f2f134b40c9d84c.js": "1616d949c0512c75f98d5e31e449a1abbab2f036",
     "/manifest.json": "b0657dc7d56cc1dcd9751be09ad9dea5c635a565",
     "/polyfills.c6871e56cb80756a5498.js": "f5c688c6cdf730d54759e30839fbd417dbe38e31",
