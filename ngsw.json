@@ -25,7 +25,15 @@
         "/manifest.json",
         "/polyfills.c6871e56cb80756a5498.js",
         "/runtime.ec2944dd8b20ec099bf3.js",
-        "/styles.c97aa247d5d231455d51.css",
+        "/styles.c97aa247d5d231455d51.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "prefetch",
+      "updateMode": "lazy",
+      "urls": [
         "/assets/sounds/Captain%20Holt/BRB%20time.mp3",
         "/assets/sounds/Captain%20Holt/Bingpot.mp3",
         "/assets/sounds/Captain%20Holt/Bold%20personality.mp3",
@@ -217,13 +225,6 @@
         "/assets/sounds/Jake%20Peralta/Yeah%20how%20cool.mp3",
         "/assets/sounds/Jake%20Peralta/You%20sick%20son%20of%20a%20bitch.mp3"
       ],
-      "patterns": []
-    },
-    {
-      "name": "assets",
-      "installMode": "prefetch",
-      "updateMode": "lazy",
-      "urls": [],
       "patterns": []
     }
   ],
