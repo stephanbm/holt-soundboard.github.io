@@ -9,7 +9,7 @@ sounds = {}
 
 for i in p.glob('**/*.mp3'):
   sound_path = str(i).split("sounds/")[1]
-  print(sound_path)
+  # print(sound_path)
 
   # make sure not system file
   if not (sound_path[0] == "."):
@@ -21,4 +21,8 @@ for i in p.glob('**/*.mp3'):
 for char, list in sounds.items():
   sounds[char].sort()
 
-print(sounds)
+# print(sounds)
+
+for char, s in sounds.items():
+  for each_sound in s:
+    print(f'"/assets/sounds/{char.replace(" ", "%20")}/{each_sound.replace(" ", "%20")}",')
