@@ -10,6 +10,7 @@
         "/favicon.ico",
         "/index.html",
         "/main.7868fe4f0f3b0f09bcbb.js",
+        "/manifest.json",
         "/polyfills.c6871e56cb80756a5498.js",
         "/runtime.ec2944dd8b20ec099bf3.js",
         "/styles.c97aa247d5d231455d51.css"
@@ -198,6 +199,7 @@
     "/favicon.ico": "5ad56d52a905a04db4117bcf38d24b61960b85b9",
     "/index.html": "cb7fc02c0d82aa18116141c422afa8ce94ffe884",
     "/main.7868fe4f0f3b0f09bcbb.js": "5c3f8621fac93baac9be4dea667d9951d20e9267",
+    "/manifest.json": "b0657dc7d56cc1dcd9751be09ad9dea5c635a565",
     "/polyfills.c6871e56cb80756a5498.js": "f5c688c6cdf730d54759e30839fbd417dbe38e31",
     "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/styles.c97aa247d5d231455d51.css": "7fcb312714388463d5a3770f1d49b7f2c7a78707"
