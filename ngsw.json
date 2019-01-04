@@ -7,21 +7,6 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main.c686a9f56c8fb640d4fa.js",
-        "/manifest.json",
-        "/polyfills.c6871e56cb80756a5498.js",
-        "/runtime.ec2944dd8b20ec099bf3.js",
-        "/styles.c97aa247d5d231455d51.css"
-      ],
-      "patterns": []
-    },
-    {
-      "name": "assets",
-      "installMode": "prefetch",
-      "updateMode": "prefetch",
-      "urls": [
         "/assets/sounds/Captain Holt/BRB time.mp3",
         "/assets/sounds/Captain Holt/Bingpot.mp3",
         "/assets/sounds/Captain Holt/Bold personality.mp3",
@@ -105,8 +90,22 @@
         "/assets/sounds/Captain Holt/You embarrass yourself.mp3",
         "/assets/sounds/Captain Holt/You have aged.mp3",
         "/assets/sounds/Captain Holt/You're not cheddar.mp3",
-        "/assets/sounds/Captain Holt/You've used my logic against me.mp3"
+        "/assets/sounds/Captain Holt/You've used my logic against me.mp3",
+        "/favicon.ico",
+        "/index.html",
+        "/main.c686a9f56c8fb640d4fa.js",
+        "/manifest.json",
+        "/polyfills.c6871e56cb80756a5498.js",
+        "/runtime.ec2944dd8b20ec099bf3.js",
+        "/styles.c97aa247d5d231455d51.css"
       ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [],
       "patterns": []
     }
   ],
