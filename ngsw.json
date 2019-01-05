@@ -15,17 +15,17 @@
         "/runtime.ec2944dd8b20ec099bf3.js",
         "/styles.c97aa247d5d231455d51.css"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain Holt\\/Bone\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain Holt\\/Bingpot\\.mp3"
+      ]
     },
     {
       "name": "assets",
       "installMode": "prefetch",
       "updateMode": "lazy",
       "urls": [],
-      "patterns": [
-        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain Holt\\/Bone\\.mp3",
-        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain Holt\\/Bingpot\\.mp3"
-      ]
+      "patterns": []
     }
   ],
   "dataGroups": [],
