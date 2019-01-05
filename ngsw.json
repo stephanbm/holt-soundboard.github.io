@@ -20,7 +20,7 @@
     {
       "name": "assets",
       "installMode": "prefetch",
-      "updateMode": "prefetch",
+      "updateMode": "lazy",
       "urls": [
         "/assets/sounds/Captain Holt/BRB time.mp3",
         "/assets/sounds/Captain Holt/Bingpot.mp3",
@@ -213,7 +213,10 @@
         "/assets/sounds/Terry Jeffords/Yoghurt fridge.mp3",
         "/assets/sounds/Terry Jeffords/Yoghurt, me too.mp3"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain Holt\\/Bone\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain Holt\\/Bingpot\\.mp3"
+      ]
     }
   ],
   "dataGroups": [],
