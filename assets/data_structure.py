@@ -25,4 +25,4 @@ for char, list in sounds.items():
 
 for char, s in sounds.items():
   for each_sound in s:
-    print(f'"/assets/sounds/{char.replace(" ", "%20")}/{each_sound.replace(" ", "%20")}",')
+    print(f'"https://raw.githubusercontent.com/holt-soundboard/holt-soundboard.github.io/master/assets/sounds/{char}/{each_sound}",')
