@@ -27,15 +27,7 @@
         "/runtime.ec2944dd8b20ec099bf3.js",
         "/styles.c97aa247d5d231455d51.css"
       ],
-      "patterns": []
-    },
-    {
-      "name": "assets",
-      "installMode": "prefetch",
-      "updateMode": "prefetch",
-      "urls": [],
       "patterns": [
-        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/.*",
         "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain Holt\\/BRB time\\.mp3",
         "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain Holt\\/Bingpot\\.mp3",
         "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain Holt\\/Bold personality\\.mp3",
@@ -226,6 +218,15 @@
         "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Jake Peralta\\/Woooh!\\.mp3",
         "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Jake Peralta\\/Yeah how cool\\.mp3",
         "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Jake Peralta\\/You sick son of a bitch\\.mp3"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [],
+      "patterns": [
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/.*"
       ]
     }
   ],
