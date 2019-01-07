@@ -21,8 +21,8 @@ for i in p.glob('**/*.mp3'):
 for char, list in sounds.items():
   sounds[char].sort()
 
-# print(sounds)
+print(sounds)
 
-for char, s in sounds.items():
-  for each_sound in s:
-    print(f'"https://raw.githubusercontent.com/holt-soundboard/holt-soundboard.github.io/master/assets/sounds/{char}/{each_sound}",')
+# for char, s in sounds.items():
+#   for each_sound in s:
+#     print(f'"https://raw.githubusercontent.com/holt-soundboard/holt-soundboard.github.io/master/assets/sounds/{char}/{each_sound}",')

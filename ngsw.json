@@ -21,11 +21,11 @@
         "/fa-solid-900.f72d546abcc27880adf8.eot",
         "/favicon.ico",
         "/index.html",
-        "/main.793dddd53f4e860c723a.js",
+        "/main.0e1faf048bd07476a1e1.js",
         "/manifest.json",
         "/polyfills.c6871e56cb80756a5498.js",
         "/runtime.ec2944dd8b20ec099bf3.js",
-        "/styles.fd7bdcd3ea73e3ec5ce4.css"
+        "/styles.14671aa341633ccbe2d6.css"
       ],
       "patterns": [
         "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain Holt\\/BRB time\\.mp3",
@@ -160,6 +160,16 @@
         "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Charles Boyle\\/STDs\\.mp3",
         "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Charles Boyle\\/Yippie Kayak other buckets\\.mp3",
         "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Charles Boyle\\/You are ovulating like crazy right now\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Gina Linetti\\/Civilized\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Gina Linetti\\/Each sentence is getting fatter\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Gina Linetti\\/Emotionally\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Gina Linetti\\/Less talk more solve\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Gina Linetti\\/Oh my god\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Gina Linetti\\/Peanut butter\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Gina Linetti\\/Shot more often\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Gina Linetti\\/That makes me wanna cry\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Gina Linetti\\/This is so fun!\\.mp3",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Gina Linetti\\/You think these buffoons can help\\.mp3",
         "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Jake Peralta\\/Boobies bounce\\.mp3",
         "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Jake Peralta\\/Boobies on my vest\\.mp3",
         "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Jake Peralta\\/Bub-bup-bup-bup-bah\\.mp3",
@@ -245,12 +255,12 @@
     "/fa-solid-900.8086e197694282b26c7b.woff2": "58990abc3958c68e01a50f00bceb50fb3987fb72",
     "/fa-solid-900.f72d546abcc27880adf8.eot": "f39038a6352f3a175f08b250540fdbf920c36aa7",
     "/favicon.ico": "5ad56d52a905a04db4117bcf38d24b61960b85b9",
-    "/index.html": "da1aa74fa8d19011d0c90ac10a0fd68005ab622f",
-    "/main.793dddd53f4e860c723a.js": "e000f714e41fef4f5a3ac1655983f8f0321d10bc",
+    "/index.html": "7dd9780a86e1a524a0e0184c0f43d3ac4b0505e6",
+    "/main.0e1faf048bd07476a1e1.js": "f1a5677679d3ced03c42ab6522f44d6ed497be2e",
     "/manifest.json": "b0657dc7d56cc1dcd9751be09ad9dea5c635a565",
     "/polyfills.c6871e56cb80756a5498.js": "f5c688c6cdf730d54759e30839fbd417dbe38e31",
     "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/styles.fd7bdcd3ea73e3ec5ce4.css": "cc19c2444bbf3355e19fc927066a058f9afdc43f"
+    "/styles.14671aa341633ccbe2d6.css": "3a496499b77ded173212735757c254100b8c20dd"
   },
   "navigationUrls": [
     {
