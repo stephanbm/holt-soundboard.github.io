@@ -21,11 +21,11 @@
         "/fa-solid-900.f72d546abcc27880adf8.eot",
         "/favicon.ico",
         "/index.html",
-        "/main.61cfbea44599bfd9c944.js",
+        "/main.0dc89143b428ff4c40fb.js",
         "/manifest.json",
         "/polyfills.c6871e56cb80756a5498.js",
         "/runtime.ec2944dd8b20ec099bf3.js",
-        "/styles.c97aa247d5d231455d51.css"
+        "/styles.fd7bdcd3ea73e3ec5ce4.css"
       ],
       "patterns": [
         "https:\\/\\/raw\\.githubusercontent\\.com\\/holt-soundboard\\/holt-soundboard\\.github\\.io\\/master\\/assets\\/sounds\\/Captain Holt\\/BRB time\\.mp3",
@@ -245,12 +245,12 @@
     "/fa-solid-900.8086e197694282b26c7b.woff2": "58990abc3958c68e01a50f00bceb50fb3987fb72",
     "/fa-solid-900.f72d546abcc27880adf8.eot": "f39038a6352f3a175f08b250540fdbf920c36aa7",
     "/favicon.ico": "5ad56d52a905a04db4117bcf38d24b61960b85b9",
-    "/index.html": "f53dc1cbdc6d368cf7d8ced66c0a22fff3f1d897",
-    "/main.61cfbea44599bfd9c944.js": "e7379a717b2ecccc3bb64b499d7b89ef793fdccd",
+    "/index.html": "68a33db25ea1f6305fd35598d704e09acf999888",
+    "/main.0dc89143b428ff4c40fb.js": "a0006456b973afac65968d1ff9713046144408de",
     "/manifest.json": "b0657dc7d56cc1dcd9751be09ad9dea5c635a565",
     "/polyfills.c6871e56cb80756a5498.js": "f5c688c6cdf730d54759e30839fbd417dbe38e31",
     "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/styles.c97aa247d5d231455d51.css": "7fcb312714388463d5a3770f1d49b7f2c7a78707"
+    "/styles.fd7bdcd3ea73e3ec5ce4.css": "cc19c2444bbf3355e19fc927066a058f9afdc43f"
   },
   "navigationUrls": [
     {
