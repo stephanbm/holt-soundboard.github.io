@@ -4,7 +4,7 @@ from pathlib import Path
 from pprint import pprint
 
 p = Path("/Users/parthkabra/Desktop/Web/HOLT_SOUNDBOARD_5/holt-soundboard-pro/src/assets/sounds")
-sounds = {}
+sounds = {"Captain Holt": [], "Terry Jeffords": [], "Charles Boyle": [], "Jake Peralta": [], "Gina Linetti": [], "Rosa Diaz": [], "Amy Santiago": [], "Hitchcock": [], "Scully": []}
 
 
 for i in p.glob('**/*.mp3'):
@@ -13,6 +13,7 @@ for i in p.glob('**/*.mp3'):
 
   # make sure not system file
   if not (sound_path[0] == "."):
+    
     character, filename = sound_path.split('/')[0], sound_path.split('/')[1]
 
     try: sounds[character].append(filename)
