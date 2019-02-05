@@ -1,6 +1,6 @@
 # [Holt Soundboard](http://holt-soundboard.github.io/)
 
-Sounds of all he main characters from the show Brooklyn 99.
+Sounds of all the main characters from the show Brooklyn 99.
 
 ## :rocket: Features
 
